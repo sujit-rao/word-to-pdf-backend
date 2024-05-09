@@ -14,7 +14,7 @@ app.get('/health', (req, res) => {
 })
 
 app.use(cors({
-    // origin: 'https://word-to-pdf-liart.vercel.app'
+    origin: 'https://word-to-pdf-frontend.onrender.com'
 }))
 
 //storage
